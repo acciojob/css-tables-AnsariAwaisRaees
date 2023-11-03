@@ -1,6 +1,7 @@
 /*  your css code here. If applicable */
 table {
-    border-collapse: collapse;
+    border-collapse: separate;
+	border-spacing: 10px;
     width: 100%;
 }
 
@@ -11,9 +12,9 @@ th, td {
 }
 
 tr:nth-child(odd) {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
 }
 
 tr:nth-child(even) {
-    background-color: #ffffff;
+    background-color: #f2f2f2 ;
 }
